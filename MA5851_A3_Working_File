@@ -1,0 +1,38 @@
+###MA5851: Assignment 3, Webcrawler & NLP  
+####Paul Kirkwood
+
+###Overview  
+#####Objective
+Sport is based upon emotion,none more so than football. In the 1990's the satellite broadcaster, Sky,  revolutionised football through it's multi billion dollar investment in the English Premier League.It understood the value of emotion in capturing customers.  
+
+The analysis of emotion or sentiment of games is useful in understanding whether emotion is just a transitory factor or whether there are trends and patterns in emotion that go beyond the specific match on the day. Questions such as, do some matches generate higher or lower sentiments over time?  Are there particular events in matches that generate significantly changed sentiment responses.  
+
+For the media platforms this may enable: 
+
+- match planning,  
+- scheduling high sentiment games at particular times. 
+- Designing in game entertainment, do certain sentiment levels benefit from external input, such as pundit discussion.   
+- Can sentiment tracking govern when ad breaks occur or coverage interruptions. 
+- Are there variances between live visual coverage and non-visual? 
+
+All of these questions can influence not just coverage planning, but the management of advertising revenue. On the 'dark side', can sentiment tracking be used by betting companies to pitch offers or adjust odds, or by advertising companies. 
+
+#####Data Sources
+
+With the growth in media platforms focused on very narrow segments of the fan base for games we are able to isolate fan groups to narrowly focus the collection of data for sentiment analysis. 
+
+There are multiple pathways such as twitter, facebook, etc., that can generate significant volumes of data and would require significant comutation to manage.  They are also global platforms and further work is required to generate granular data that can be attributed to specific countries or market segments. 
+
+The growth in fan forum platforms, many of which are run by clubs or organisations affiliated to clubs offer a very useful sample set on which to test the concept.  Affiliated fan sites are moderated, single language, and in most cases require registration. A particular forum thread is discrete, off topic posts are moderated.  The message data is therefore tightly focused on the subject matter (ie the game) and content is developed by club fans (opposition fans will not post on a club site.) this gives us a very clear data set to work with. 
+
+#####Structure of the Analysis
+The task aims to capture sentiment from forum match feeds to use as the basis for sentiment analysis.  Event data (eg. goals) or library data (eg. player names) will be captured from other websites to provide context data. 
+
+The structure of the model is outlined below:
+
+
+###Webcrawler
+#####Background
+The webcrawler will obtain data from the following sites; 
+
+
